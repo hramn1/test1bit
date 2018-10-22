@@ -46,6 +46,12 @@ img {
 .swiper-slide {
   background-position: center;
   background-size: cover;
+  &--1{
+    background-image:url(../img/slide_one.jpg)
+  }
+  &--2{
+    background-image:url(../img/slide_two.jpg)
+  }
 }
 .head-logo{
   width: 230px;
